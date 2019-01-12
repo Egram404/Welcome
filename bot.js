@@ -8,6 +8,7 @@ client.on("ready",() => {
 });
 
 client.on('guildMemberAdd', member => {
+	console.log('User ' + member.user.username + ' as join the server');
 	member.guild.channels.get('480929688605425694').send(`-Ꮃelcome ${member.user.username} To **__Versače.__**`)
 });
 
